@@ -61,7 +61,7 @@ class LoginScreen extends StatelessWidget {
                       Navigator.pushNamedAndRemoveUntil(
                         context,
                         "/expenses_screen",
-                        (route) => true,
+                        (route) => false,
                         arguments: _uidController.text,
                       );
                     }
